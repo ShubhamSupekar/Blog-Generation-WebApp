@@ -8,7 +8,7 @@ Llama 2 is a family of large language models (LLMs) developed and released by Me
 
 ## 2 How to run Blog Generation WebApp:
 Download pretrained Llama 2 GGM model from [here](https://huggingface.co/TheBloke/Llama-2-7B-GGML/blob/main/llama-2-7b.ggmlv3.q8_0.bin).
-
+After downloading model file place into folder name "Model"
 Clone project:
 ```sh
 git clone https://github.com/ShubhamSupekar/Blog-Generation-WebApp.git
