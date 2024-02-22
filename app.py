@@ -10,6 +10,7 @@ def getLLamaresponse(input_text,no_words,blog_style):
 #     # CTransformers lib. provides python building for GGML models
 #     # GGML: It defines a binary format for distributing large language models (LLMs). 
 #     # To do that it uses quantization, a technique that allows LLMs to run on consumer hardware with effective CPU inferencing.
+    # replace this path 'Model\llama-2-7b-chat.ggmlv3.q8_0.bin' with model file path  
     llm=CTransformers(model='Model\llama-2-7b-chat.ggmlv3.q8_0.bin',
                       model_type='llama',
                       config={'max_new_tokens':256,
